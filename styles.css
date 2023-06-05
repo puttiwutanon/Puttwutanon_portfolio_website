@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;1,100&family=Wix+Madefor+Display&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+*{
+    font-family: Wix Madefor Display;
+    font-family: Kanit;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.navbar h1{
+    margin-right: auto;
+    margin-left: 3rem;
+}
+.navbar li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10rem;
+}
+header{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('vecteezy_desktop-source-code-and-wallpaper-by-coding-and-programming_3343387.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.header-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.header-info h1{
+    font-size: 50px;
+}
+.header-info p{
+    font-size: 20px;
+    font-family: Kanit;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about img{
+    border-radius: 360px;
+    margin-bottom: 2rem;
+}
+.about h1{
+    font-size: 50px;
+    margin-bottom: 2rem;
+    padding: 2px;
+    border-bottom: 1px solid #121212;
+    width: max-content;
+}
+.about p{
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+.education {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.education-topic {
+    border-left: 5px solid #121212; /* Specify the border width and color */
+    padding-left: 10px; /* Add some padding to separate the text from the border */
+}
+.skills{
+    text-align: center;
+    margin-top: 5rem;
+}
+.skills h1 {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid #121212;
+    margin: 0 auto;
+    width: max-content;
+}
+.skills-container{
+    display: grid;
+    padding-top: 1rem;
+    gap: 13rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.skills-items{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 50px;
+}
+footer {
+    height: 200px;
+    background-color: #121212;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+footer i{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
