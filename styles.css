@@ -178,3 +178,20 @@ footer i{
 .contact h1{
     margin-bottom: 1rem;
 }
+.more-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #121212;
+    list-style: none;
+    text-decoration: none;
+    color: #121212;
+}
+.more-button:hover{
+    background-color: #121212;
+    color: #fff;
+    transition: 0.5s;
+}
